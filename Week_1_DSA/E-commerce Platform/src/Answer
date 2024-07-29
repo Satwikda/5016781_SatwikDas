@@ -1,0 +1,24 @@
+//STEP1:-
+
+//Asymptotic Notation
+/*
+ 1)
+ Big O Notation: It is used to describe the performance or complexity of an algorithm in terms of the size of input. 
+ Big O specifically describes the worst-case scenario and can be used to describe the execution 
+ time required or the space used by an algorithm.
+ */
+
+/*2)
+Best Case: The scenario where the algorithm performs the minimum number of operations.
+Average Case: The expected number of operations an algorithm performs, averaged over all possible inputs.
+Worst Case: The scenario where the algorithm performs the maximum number of operations.*/
+
+
+//STEP2:-ANALYSIS
+//Compare the time complexity of linear and binary search algorithms
+Linear search: The time complexity is O(n) in the worst case.
+Binary search: The time complexity is O(log n) in the worst case, but this requires the array to be sorted.
+
+//Discuss which algorithm is more suitable for your platform and why
+Linear search: More suitable for small datasets or when the array is not sorted, as it does not require preprocessing.
+Binary search: More suitable for large datasets where the array can be sorted beforehand, providing much faster search times.

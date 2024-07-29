@@ -1,0 +1,12 @@
+//Asymptotic Notation
+/*
+ 1)
+ Big O Notation: It is used to describe the performance or complexity of an algorithm in terms of the size of input. 
+ Big O specifically describes the worst-case scenario and can be used to describe the execution 
+ time required or the space used by an algorithm.
+ */
+
+/*2)
+Best Case: The scenario where the algorithm performs the minimum number of operations.
+Average Case: The expected number of operations an algorithm performs, averaged over all possible inputs.
+Worst Case: The scenario where the algorithm performs the maximum number of operations.*/

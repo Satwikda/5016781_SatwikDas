@@ -1,0 +1,25 @@
+//STEP1:-
+
+Understanding Sorting Algorithms:
+
+Bubble Sort: A simple comparison-based algorithm where each pair of adjacent elements is compared and 
+the elements are swapped if they are not in order.
+
+Insertion Sort: Builds the sorted array one item at a time, by repeatedly taking the next item and 
+inserting it into the sorted portion of the array.
+
+Quick Sort: A divide-and-conquer algorithm that picks a pivot element and partitions the array into 
+two sub-arrays according to whether the elements are less than or greater than the pivot.
+
+Merge Sort: Another divide-and-conquer algorithm that divides the array into two halves, recursively sorts them, 
+and then merges the sorted halves.
+
+//STEP4:-
+1)Compare the Performance of Bubble sort and Quick Sort?
+=>
+Bubble Sort: Time complexity is O(n^2) in the worst case. It is inefficient for large datasets.
+Quick Sort: Average time complexity is O(n log n), and worst-case complexity is O(n^2),which can be mitigated with good
+pivot selection strategies. It is generally much faster than Bubble Sort for large datasets.
+
+2)Why Quick sort is generally preferred over Bubble Sort?
+=> Quick Sort algorithm achieves faster sorting by using a pivot element and shows better performance with larger arrays due to its complexity.
